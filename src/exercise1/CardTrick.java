@@ -8,6 +8,7 @@ package exercise1;
  * @author dancye
  * @author Paul Bonenfant Jan 25, 2022
  modifier akshajrajput07
+ BRANCH
  */
 public class CardTrick {
     
