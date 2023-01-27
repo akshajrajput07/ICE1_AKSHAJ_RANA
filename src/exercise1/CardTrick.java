@@ -6,8 +6,10 @@ import java.util.Scanner;
  * It then searches the array of cards for the match to the user's card. 
  * To be used as starting code in Exercise
  *
- * @author Akshaj Rana
- * @author Akshaj Rana Jan 27, 2023
+ * @author dancye
+ * @author Paul Bonenfant Jan 25, 2022
+ modifier akshajrajput07
+ BRANCH
  */
 public class CardTrick {
     
@@ -22,6 +24,7 @@ public class CardTrick {
             card.setSuit(Card.SUITS[(int)(Math.random()*4)]);
             System.out.println("get value "+card.getValue()+" get suit "+card.getSuit());
              hand[i]=card;
+            // System.out.println(hand[i]);
             //card.setValue(insert call to random number generator here)
             // 
             //card.setSuit(Card.SUITS[insert call to random number between 0-3 here])
@@ -31,7 +34,7 @@ public class CardTrick {
         System.out.println("Choose a number from 2-10 for numbers, 1 for Ace, 11 for jack, 12 for queen, 13 for king: \n ");
         int value= in.nextInt();
         
-        System.out.println("Choose a suit. Type Hearts, Diamonds, Spades, or Clubs.  \n ");
+        System.out.println("Choose a suit. Type Hearts, Diamonds, Spades, or Clubs  \n ");
         String suit= in.next();
         
         
@@ -67,18 +70,23 @@ public class CardTrick {
     private static void printInfo() {
     
         System.out.println("Congratulations, you guessed right!");
+        System.out.println();
         
-        System.out.println("My name is Akshaj Rana, but you can call me Akshaj");
+        System.out.println("My name is Paul, but you can call me prof, Paul or sir");
+        System.out.println();
         
         System.out.println("My career ambitions:");
-        System.out.println("-- Being a Billionaire");
-		
-        System.out.println("My hobbies:");
-        System.out.println("-- Playing Cricket");
-        System.out.println("-- Playing Chess");
-        System.out.println("-- Watching Movies");
+        System.out.println("-- Be more active on LinkedIn");
+        System.out.println("-- Have a semester with no violations of academic integrity!");
+	System.out.println();	
 
-      
+        System.out.println("My hobbies:");
+        System.out.println("-- Investing");
+        System.out.println("-- Cooking");
+        System.out.println("-- Reading/Watching TV");
+        System.out.println("-- Riding my motorcycle");
+
+        System.out.println();
         
     
     }
