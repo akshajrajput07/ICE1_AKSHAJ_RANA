@@ -41,7 +41,7 @@ public class CardTrick {
         
     }
 	
-    //I AM DONE !!!
+    //I AM DONE !
     private static void printInfo() {
         System.out.println("Congratulations, you guessed right!");
         System.out.println();
